@@ -1,0 +1,142 @@
+.DetailViewWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.product__title {
+    font-weight: bold;
+}
+
+
+
+.DetailViewHeader {
+    background-color: #F9F9F9;
+    padding: 29px;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.arrowd {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+.DetailViewMain {
+    display: flex;
+    padding: 25px 29px 100px 29px;
+    height: fit-content;
+}
+
+.DetailViewMainWrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    height: 140vw;
+}
+
+.ProductImage {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.about__product {
+    font-weight: bold;
+    color: #252B42;
+    opacity: 85%;
+}
+
+.product__description {
+    max-width: 100%;
+}
+
+h3 {
+    color: #252B42;
+}
+
+.call__btn {
+    background: #1966FC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    gap: 35px;
+    box-shadow: 0px 0px 13.3px rgba(0, 0, 0, 0.25);
+    border-radius: 74px;
+    height: 50px;
+    border: none;
+    color: #FFFFFF;
+    width: 90vw;
+    position: fixed;
+    bottom: 5px;
+}
+
+.DetailViewFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.plus__btn {
+    position: absolute;
+    top: 90vw;
+    right: 42px;
+}
+
+.ProfileView__title {
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .call__btn {
+        display: none;
+    }
+    .DetailViewMainWrapper {
+        justify-content: center;
+        height: fit-content;
+        padding: 15px;
+    }
+
+    .DetailViewMain {
+        justify-content: center;
+    }
+    .product__description {
+        width: 300px;
+    }
+}
+
+.DetailViewWrapper.dark {
+    background-color: #FFFFFF;
+    color: #000000; 
+}
+
+.inner__wrapper {
+    color: #000000;
+}
+
+.DetailViewMainWrapper.dark {
+    background-color: #fff;
+}
+
+.product__description.dark {
+    background-color: #fff;
+}
+
+.DetailViewHeader.dark {
+    background-color: #000000;
+}
+
+.h3.dark {
+    color: #FFFFFF;
+}
+
+.DetailViewMain.dark, .DetailViewFooter.dark {
+    background-color: #1A1A1A;
+}
+
